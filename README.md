@@ -14,3 +14,7 @@ A cool repository for my MDIA 1620 class
 **Word for how you're feeling**
 
 *Intrigued*
+
+"git clone" - copies a version of my repository
+
+"git status" - prints out status of local repo
