@@ -18,3 +18,24 @@ A cool repository for my MDIA 1620 class
 "git clone" - copies a version of my repository
 
 "git status" - prints out status of local repo
+
+**MDIA-1620**`
+
+*Lab 1*
+
+***NAME***
+
+Kassidy
+
+***IMAGE OF FAVOURITE SANDWICH***
+
+BLT
+
+<img src="https://littlesunnykitchen.com/wp-content/uploads/2022/07/BLT-Sandwich-1.jpg" width="333.25" height="500">
+
+***LEARNINGS FROM 3-2-1***
+<ol>
+<li>Coding language ie. CD, LS, clone, checkout, add, commit, push</li>
+<li>Versioning ie. identifying changes to software MAJOR.MINOR.PATCH v14.6.1</li>
+<li>GUI - graphical user interface consists of organizational metaphors such as folders and trash located on computer</li>
+</ol>
