@@ -39,3 +39,24 @@ BLT
 <li>Versioning ie. identifying changes to software MAJOR.MINOR.PATCH v14.6.1</li>
 <li>GUI - graphical user interface consists of organizational metaphors such as folders and trash located on computer</li>
 </ol>
+
+
+***Lab 3 Assignment***
+
+**3 things I learned**
+<ol>
+<li>Understanding console logging</li>
+<li>Clarifying steps to update README repository</li>
+<li>Learning <em>string</em> and <em>boolean</em></li>
+</ol>
+
+**2 things confusing**
+<ol>
+<li>Practicing labelling/naming code properly to ensure right functions</li>
+<li>Javascript in terms of further functions</li>
+</ol>
+
+**1 How am I feeling?**
+I am still feeling excited but also challenged in a positive way!
+
+
