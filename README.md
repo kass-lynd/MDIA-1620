@@ -24,10 +24,13 @@ A cool repository for my MDIA 1620 class
 *Lab 1*
 
 ***NAME***
+
 Kassidy
 
 ***IMAGE OF FAVOURITE SANDWICH***
+
 BLT
+
 <img src="https://littlesunnykitchen.com/wp-content/uploads/2022/07/BLT-Sandwich-1.jpg" width="333.25" height="500">
 
 ***LEARNINGS FROM 3-2-1***
