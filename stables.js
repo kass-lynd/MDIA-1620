@@ -28,6 +28,6 @@ console.log(rentInformation);
 console.log(promotion);
 console.log(promotionPrice);
 
-
-
+let horseInside = "true"
+if (horseInside){ console.log(horseNickname + "is inside"); } //Lulu is Inside//
 
