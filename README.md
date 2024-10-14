@@ -61,3 +61,22 @@ BLT
 I am still feeling excited but also challenged in a positive way!
 
 
+***Lab 6 Assignment***
+
+**3 Confusing Things**
+<ol>
+<li>Keeping everything organized in my brain in terms of memorizing functions.</li>
+<li>Ordering of Arrays and Indexes</li>
+<li>Just need to practice if clauses more</li>
+</ol>
+
+**3 Things I Have a Solid Understanding Of**
+<ol>
+<li>Adding styles to text and phrases</li>
+<li>Console Logging</li>
+<li>Using operators and variables</li>
+</ol>
+
+**Analogies That I Use**
+
+***"Feeling a little snowed under" Just a little overwhelmed and confused"***
