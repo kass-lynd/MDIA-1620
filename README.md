@@ -68,12 +68,14 @@ I am still feeling excited but also challenged in a positive way!
 <li>Keeping everything organized in my brain in terms of memorizing functions.</li>
 <li>Ordering of Arrays and Indexes</li>
 <li>Just need to practice if clauses more</li>
+</ol>
 
 **3 Things I Have a Solid Understanding Of**
 <ol>
 <li>Adding styles to text and phrases</li>
 <li>Console Logging</li>
 <li>Using operators and variables</li>
+</ol>
 
 **Analogies That I Use**
 
