@@ -1,0 +1,102 @@
+// notes for class
+
+// primitives =
+// array
+// string
+// booleans
+// number
+
+
+// methods = (functions in objects)
+// console.log
+// objects use {} while arrays use []     -objects provide clearer info
+
+// example of object used 
+// let luna = {
+//    name: "Luna",
+//    age: "2",
+//    nickname: "Lulu"
+//};
+
+let luna = {         // Luna = property
+    name: "Luna", //item
+    age: "2",     //item    age=known as key  "2" in this ite, is a key
+    nickname: "Lulu",
+    intro: function (){  //can remove function ie. intro(){...}  function is the method
+        console.log(
+            `This is ${this.name}! Their nickname is ${this.nickname}!`
+        );
+    }
+};
+
+console.log(luna.name) // logs out "Luna"
+console.log(luna.age) // logs out "2"
+console.log(luna.nickname) // logs out "Lulu"
+console.log(luna) //logs out all info in objects
+
+console.log(luna.intro());
+console.log(luna.nickname); //dot notation = preferred
+
+// multiple items in an object
+// any data in object = property
+// full object code is called "object literal"
+
+//array notation
+let arr= [1, 2, 3]; 
+console.log(arr [1]); // logs out 2
+//arr 0= "1" 1= "2" 2= "3"
+
+// dot notation
+console.log(luna.nickname);
+
+//bracket notation
+console.log(luna["nickname"]);
+
+function getHorseInfo(horse, key) {
+    let msg = "This horse is " + key + "d " + luna[key];
+    console.log(msg);
+}
+
+// ... means something is there but sonjya using as example
+
+luna.favouriteSnack = "Raspberries";
+luna.MONTHLY_RENT = 125;
+luna.monthlyRent["monthlyRent"] = 125; // must use "" or else js will look for the declared variable. Bracket is another way of doing dot, just longer to type
+
+luna.rentNotice = function (){
+    console.log(`${this.name}'s monthly rent of $${this.MONTHLY_RENT} dollars is due`);
+}
+
+// constructors are used to create new multiple object literals
+
+// constructors, hace a capitol letter for identification
+
+//this = refers to current object code is being executed in
+// refers to object method was ccalled on will see "this" a lot in js and web code
+
+
+//object vs array
+// one thing with multiple properties = use object
+// multiple items with one property = array
+
+
+
+function Horse(name, nickname, faveSnack, monthlyRent, age, isInside, color) {
+    this.name = name;
+    this.nickname = nickname;
+    this.faveSnack = faveSnack;
+    this.MONTHLY_RENT = monthlyRent;
+    this.isInside = isInside;
+    this.age = age;
+    this.color = color;
+    this.introduction = function () {
+        console.log(`This is ${this.name}, their nickname is ${this.nickname}!`);
+    };
+    this.rentNotice = function (daysUntilDue) {
+        console.log(`${this.name}'s rent is due in ${daysUntilDue}, and is $${this.MONTHLY_RENT}! Please pay promptly!`
+
+        );
+    };
+}
+
+let luna = new Horse("Luna", "Lulu", "raspberries", 125, 2, true, "purple");
